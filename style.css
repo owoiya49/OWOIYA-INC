@@ -1,0 +1,245 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+.body{
+    background-image:url(CSS/ground.jpg);
+    background-size: cover; 
+    background-position: center;
+   
+}
+h2.brand-name{
+    font-size: 50px;
+    color: rgb(69, 69, 70);
+}
+.navbar{
+    text-align: center;
+    font-family: cursive;
+    background-color:#3333;
+    font-size: 10px;
+
+   
+}
+.navbar ul{
+    display: inline-flex;
+    list-style: none;
+   
+    
+}
+.navbar ul li{
+    padding: 10px;
+    width: 300px;
+ 
+
+}
+.navbar ul li a{
+text-decoration: none;
+color:white;
+font-size: 30px;
+font-weight:1000 ;
+
+}
+
+.active, .navbar ul li:hover{
+background: rgb(66, 50, 50);
+border-radius: 20px;
+;
+
+}
+
+Section.heading{
+    text-align: center;
+    padding-top: 100px;
+}
+h1.sub{
+color:rgb(0, 0, 0);
+line-height: 1.8em;
+font-size: 95px;
+
+}
+.super{
+    line-height: 1.4em;
+    font-size: 35px;
+    font-weight: bold;
+    padding-bottom: 50px;
+}
+.btn{
+  
+  border: none;
+
+  text-align: center;
+  display: inline-block;
+  font-size: 50px;
+  
+}
+.btn a{
+    text-decoration: none;
+    color: black;
+}
+.btn a:hover{
+    background:  rgb(66, 50, 50);
+border-radius: 15px;
+padding: 30px 70px;
+color: white;
+}
+.sub-menu{
+    display: none;
+}
+.navbar ul li:hover .sub-menu{
+
+    background-color: #3333;
+    display: block;
+    position: absolute;
+    padding: 20px;
+}
+    
+.navbar ul li:hover .sub-menu li{
+    display: block;
+    margin: 15px;
+}
+    
+.navbar ul li:hover .sub-menu ul{
+    display: block;
+    margin: 20px;
+}
+.navbar ul li:hover .sub-menu ul li{
+    width: 250px;
+    padding: 10px;
+    border-bottom: 3px dotted  rgb(66, 50, 50);
+    text-align: left;
+    border-radius: 13px;
+}
+.navbar ul li:hover .sub-menu ul li:last-child{
+    border-bottom: none;
+
+}
+.navbar ul li:hover .sub-menu ul li a:hover{
+    color: rgb(86, 116, 160);
+}
+/*subsection-1*/
+h1.what{
+    font-size: 70px;
+   padding: 40px 0px 0px 0px;
+   font-weight: bold;
+}
+span.we{
+    color: rgba(121, 145, 182, 0.507) ;
+}
+span.wee{
+    color:rgb(66, 50, 50);
+}
+
+h2.second{
+    font-size: 40px;
+    margin: 10px;
+    font-weight: bold;
+}
+.paragraph{
+    padding: 0px 0px 30px 0px;
+    font-size: 30px;
+}
+.flex-container{
+display: flex;
+}
+.alll{
+    background-color: rgba(142, 138, 121, 0.13);
+}
+.sub-section{
+    text-align: center;
+}
+.box-1{
+background-color: white;
+text-align: center;
+padding: 20px;
+
+margin: 10px;
+border-radius: 10px;
+font-size: 30px;
+
+}
+.box-2{
+ 
+    background-color: rgba(121, 145, 182, 0.507);
+    text-align: center;
+padding: 20px;
+
+font-size: 30px;
+margin: 10px;
+border-radius: 10px;
+    }
+   .box-3 {
+        background: white;
+        text-align: center;
+    padding: 20px;
+ 
+font-size: 30px;
+margin: 10px;
+border-radius: 10px;
+        }
+        .box-4{   
+    background-color: rgba(121, 145, 182, 0.507);
+    text-align: center;
+    padding: 20px;
+    margin: 10px;
+    border-radius: 10px;
+    font-size: 30px;
+}
+/*section-2*/
+.section-2{
+    text-align: center;
+    padding: 40px;
+    background-color:  rgba(121, 145, 182, 0.507) ;
+}
+.class{
+        font-size: 50px;
+       padding: 40px 0px 0px 20px;
+       font-weight: bold;
+    
+}
+.pa{
+    padding: 0px 0px 30px 0px;
+    font-size: 30px;
+}
+
+.btnn{
+    border: none;
+    text-align: center;
+    display: inline-block;
+    font-size: 40px;
+    margin: 30px;
+    padding: 0px;
+  }
+  .btnn a{
+      text-decoration: none;
+      color: white;
+      background-color: black;
+      padding: 30px 70px;
+      border-radius: 15px;
+
+  }
+  .btnn a:hover{
+      background:  rgb(66, 50, 50);
+  border-radius: 15px;
+  padding: 30px 70px;
+  color: white;
+  }
+/*FOOTER*/
+.footer-bottom{
+    background-color: black;
+}
+.footer-bottom p{
+    text-align: center;
+    color: rgb(255, 255, 255);
+    font-size: 30px;
+padding:20px;
+}
+a{
+    text-decoration: none;
+    color:  rgba(121, 145, 182, 0.507);
+}
+  
+a:hover{
+    color: rgb(66, 50, 50);
+}
